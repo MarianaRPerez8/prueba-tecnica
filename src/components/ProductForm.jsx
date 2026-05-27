@@ -49,7 +49,7 @@ export default function ProductForm({ initialValues = EMPTY_FORM, onSubmit, load
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
-      {/* Nombre */}
+   
       <div>
         <label className="block text-sm font-semibold text-gray-700 mb-1.5">Nombre del producto</label>
         <input
@@ -63,7 +63,7 @@ export default function ProductForm({ initialValues = EMPTY_FORM, onSubmit, load
         {errors.nombre && <p className="text-red-500 text-xs mt-1">{errors.nombre}</p>}
       </div>
 
-      {/* Precio y Stock */}
+     
       <div className="grid grid-cols-2 gap-4">
         <div>
           <label className="block text-sm font-semibold text-gray-700 mb-1.5">Precio (COP)</label>
@@ -94,7 +94,6 @@ export default function ProductForm({ initialValues = EMPTY_FORM, onSubmit, load
         </div>
       </div>
 
-      {/* Categoría */}
       <div>
         <label className="block text-sm font-semibold text-gray-700 mb-1.5">Categoría</label>
         <select
@@ -111,7 +110,7 @@ export default function ProductForm({ initialValues = EMPTY_FORM, onSubmit, load
         {errors.categoria && <p className="text-red-500 text-xs mt-1">{errors.categoria}</p>}
       </div>
 
-      {/* Imagen */}
+     
       <div>
         <label className="block text-sm font-semibold text-gray-700 mb-1.5">URL de imagen <span className="text-gray-400 font-normal">(opcional)</span></label>
         <input
@@ -125,7 +124,7 @@ export default function ProductForm({ initialValues = EMPTY_FORM, onSubmit, load
         <p className="text-gray-400 text-xs mt-1">Si no ingresas URL se usará una imagen placeholder automática.</p>
       </div>
 
-      {/* Submit */}
+      
       <button
         type="submit"
         disabled={loading}

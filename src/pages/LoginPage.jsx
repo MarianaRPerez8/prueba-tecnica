@@ -42,9 +42,9 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center p-4" style={{ background: 'linear-gradient(135deg, #6D1130 0%, #9B2148 50%, #C2185B 100%)' }}>
       <div className="w-full max-w-md">
-        {/* Card */}
+        
         <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
-          {/* Header */}
+         
           <div className="px-8 py-10 text-center" style={{ background: 'linear-gradient(135deg, #9B2148, #C2185B)' }}>
             <div className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4" style={{ background: 'rgba(255,255,255,0.2)' }}>
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -55,7 +55,6 @@ export default function LoginPage() {
             <p className="text-sm mt-1" style={{ color: '#F8BBD0' }}>Panel de administración</p>
           </div>
 
-          {/* Form */}
           <form onSubmit={handleSubmit} className="px-8 py-8 space-y-5">
             <div>
               <label className="block text-sm font-semibold mb-1.5" style={{ color: '#6D1130' }}>
