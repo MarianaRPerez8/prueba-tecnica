@@ -27,7 +27,7 @@ Panel de control para la gestión del catálogo de productos de una tienda en l�
 
 ## 🌐 API
 
-**Base URL:** `https://67f4a4fb2a8d26b906f2f1e3.mockapi.io/api/v1`
+**Base URL:** `6a162f391b90031f81b0c0db.mockapi.io/productos`
 
 **Entidad Producto:**
 ```json
@@ -41,7 +41,7 @@ Panel de control para la gestión del catálogo de productos de una tienda en l�
 }
 ```
 
-## 📂 Estructura del proyecto
+
 
 ```
 src/
@@ -67,24 +67,24 @@ src/
 ## ⚡ Instalación y uso
 
 ```bash
-# 1. Clonar el repositorio
-git clone https://github.com/TU_USUARIO/ecommerce-admin.git
-cd ecommerce-admin
 
-# 2. Instalar dependencias
+git clone https://github.com/MarianaRPerez8/prueba-tecnica
+cd prueba-tecnica
+
+
 npm install
 
-# 3. Ejecutar en desarrollo
+
 npm run dev
 ```
 
-Luego abre [http://localhost:5173](http://localhost:5173) en tu navegador.
+Luego abrimos [http://localhost:5173](http://localhost:5173) en el navegador
 
-> **Acceso:** ingresa cualquier nombre de usuario y cualquier PIN.
+> **Acceso:** 
 
 ## 🌍 Demo en producción
 
-🔗 [Ver aplicación desplegada](https://TU-APP.vercel.app)
+🔗 [Ver aplicación desplegada](https://prueba-tecnica-giig5v3yb-mariana13.vercel.app/login)
 
 ## 🔀 Flujo de Git
 

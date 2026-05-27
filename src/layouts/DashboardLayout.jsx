@@ -13,11 +13,11 @@ export default function DashboardLayout() {
 
   return (
     <div className="min-h-screen flex flex-col" style={{ background: '#FFF0F5' }}>
-      {/* Navbar */}
+      
       <nav style={{ background: '#6D1130' }} className="text-white shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            {/* Logo */}
+           
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ background: '#F48FB1' }}>
                 <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ export default function DashboardLayout() {
               <span className="font-bold text-lg tracking-tight">AdminStore</span>
             </div>
 
-            {/* Nav links */}
+        
             <div className="hidden md:flex items-center gap-1">
               <Link
                 to="/productos"
@@ -50,7 +50,7 @@ export default function DashboardLayout() {
               </Link>
             </div>
 
-            {/* User info + logout */}
+           
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold uppercase" style={{ background: '#F48FB1' }}>
@@ -77,7 +77,6 @@ export default function DashboardLayout() {
         </div>
       </nav>
 
-      {/* Page content */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Outlet />
       </main>
